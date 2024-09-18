@@ -31,6 +31,12 @@ import { ConfigstoreModule } from 'nest-configstore';
 export class AppModule {}
 ```
 
+Next, inject the `Configstore` instance using the `@InjectConfigstore()` decorator.
+
+```typescript
+constructor(@InjectConfigstore() private readonly configstore: Configstore) {}
+```
+
 ## Async configuration
 
 When you need to pass module options asynchronously instead of statically, use the `forRootAsync()` method. As with most dynamic modules, Nest provides several techniques to deal with async configuration.

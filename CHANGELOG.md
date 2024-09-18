@@ -1,5 +1,7 @@
 # Changelog
 
+## [0.1.1](https://github.com/chunkai1312/nest-configstore/compare/v0.1.0...v0.1.1) (2024-09-18)
+
 # 0.1.0 (2024-09-18)
 
 
